@@ -17,8 +17,6 @@ A clean and responsive **To-Do List Web Application** built using **HTML**, **CS
 
 https://to-do-website-delta-two.vercel.app/
 
-> *(Replace the file name with your actual screenshot if you upload one)*
-
 ## 🚀 Tech Stack
 
 - HTML5
