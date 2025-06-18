@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+  overflow-x: hidden;
+  padding: 1rem;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.count {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.count p {
+  margin: 0;
+  font-weight: bold;
+}
+/* CODE FOR INPUT SECTION  */
+.input-box {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+#inp {
+  width: 60%;
+  max-width: 400px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+}
+
+#btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #00c3c3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#btn:hover {
+  background-color: #000;
+  color: #00c3c3;
+  border: 2px solid #00c3c3;
+}
+/* CODE FOR NEW ADDED PART */
+#wrk {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1rem;
+}
+li {
+  background-color: #333;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dlt {
+  background-color: #cb31a2;
+  color: white;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  border: none;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.dlt:hover {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ff5757;
+}
+
+/* RESPONSIVE CODE  */
+
+@media (max-width: 480px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  .count {
+    font-size: 1rem;
+  }
+
+  #inp, #btn {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+}
