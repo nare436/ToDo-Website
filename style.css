@@ -13,6 +13,7 @@ body {
   color: white;
   overflow-x: hidden;
   padding: 1rem;
+  position: relative;
 }
 .hero {
   display: flex;
@@ -100,22 +101,13 @@ li {
   border-radius: 6px;
   cursor: pointer;
 }
-.footer{
-    position: absolute;
-    bottom: 0;
-    height: 2rem;
-    width: 100%;
-    text-align: center;
-    background-color: #5d5a58;
-    padding-top: 2px;
+.item{
+  margin-bottom: 2rem;
 }
-.footer a{
-    text-decoration: none;
-    color: #000;
+.dlt{
+    color: white;
+    letter-spacing: 0.1rem;
 }
-
-/* RESPONSIVE CODE  */
-
 @media (max-width: 480px) {
   h3 {
     font-size: 2rem;
